@@ -2,7 +2,7 @@
 
 ---
 
-## 📌 Overview
+## 📌 Overview :
 An end-to-end **real-time data pipeline** integrating **Kafka**, **Spark Structured Streaming**, and **Apache Airflow**.  
 - **Kafka producers** simulate live event streams (clickstream/transactions).  
 - **Spark Structured Streaming** consumes, transforms, and aggregates data in micro-batches.  
@@ -11,7 +11,7 @@ An end-to-end **real-time data pipeline** integrating **Kafka**, **Spark Structu
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack :
 - **Python**
 - **Apache Kafka**
 - **Spark Structured Streaming**
@@ -21,7 +21,7 @@ An end-to-end **real-time data pipeline** integrating **Kafka**, **Spark Structu
 
 ---
 
-## 🚀 Features
+## 🚀 Features : 
 - **Real-Time Streaming**: Kafka producers + Spark consumers for continuous ingestion.  
 - **Pipeline Orchestration**: Airflow DAGs manage startup sequencing, health checks, reconciliation jobs, and failure alerting with retry logic.  
 - **Exactly-Once Processing**: Kafka consumer offsets + Spark checkpointing ensure data accuracy.  
@@ -33,14 +33,14 @@ An end-to-end **real-time data pipeline** integrating **Kafka**, **Spark Structu
 
 ---
 
-## 📈 Outcomes (to be updated)
+## 📈 Outcomes (to be updated) :
 - Demonstrates **real-time stream processing** and **pipeline orchestration**.  
 - Validates **distributed systems design** and **operational monitoring**.  
 - Directly maps to **Amazon DE infrastructure responsibilities**.  
 
 ---
 
-## 📂 Project Structure
+## 📂 Project Structure :
 ```bash
 ├── kafka/               # Kafka producer scripts
 ├── spark/               # Spark Structured Streaming jobs
